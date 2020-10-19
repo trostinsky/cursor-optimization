@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="bg-002_sleeping icon"></div>
+<div class="bg-045_mail icon"></div>
+<div class="bg-045_mail-2x icon"></div>
+<div class="bg-045_mail-1x icon"></div>
+Progressive Enhancement
+Graceful Degradation
+    <ul>
+        <li>JPG/JPEG/JPEG 2000 – непрозрачный фон, прогрессивная загрузка</li>
+        <li>PNG/APNG – прозрачность, png8 (1 цвет), png256(много цветов)</li>
+        <li>SVG - вектор, иконки</li>
+        <li>GIF – двигающиеся изображения</li>
+        <li>WEBP – Google изображения, копия png, но меньшего размера</li>
+    </ul>
+<form action="#make_order">
+    <input placeholder="Phone:"/>
+    <input placeholder="Name:"/>
+    <button>Buy</button>
+</form>
+<picture>
+    <source srcset="./img/example.webp" />
+    <img src="./img/example.jpg" />
+</picture>
+<!--<p>было</p>-->
+<!--<img src="./img/coronavirus.png" alt="" />-->
+<!--<p>стало</p>-->
+<!--<img src="./img/coronavirus.webp" alt="" />-->
+</body>
+</html>

@@ -1,0 +1,46 @@
+header{
+     position: sticky;
+     box-sizing: border-box;
+     transition: 1s opacity;
+ }
+
+.icon {
+    background-image: url('./img/sprites@1x.png');
+    background-size: 100%;
+}
+
+.bg-045_mail-2x {
+     width: 100px;
+     height: 100px;
+     background-position: -4px -4px;
+}
+
+.bg-045_mail-1x {
+    width: 100px;
+    height: 100px;
+    background-position: -4px -4px;
+}
+
+.bg-045_mail {
+    width: 100px;
+    height: 100px;
+    background-position: -4px -4px;
+}
+
+.bg-002_sleeping{
+    width: 100px;
+    height: 100px;
+    background-position: -4px 1000px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    .icon {
+        background-image: url('./img/sprites@2x.png');
+    }
+}
